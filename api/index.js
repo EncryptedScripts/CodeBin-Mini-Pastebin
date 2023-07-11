@@ -24,6 +24,12 @@ app.get("/", (req, res) => {
   res.render("login");
 });
 
+app.get("/api", (req, res) => {
+  res.setHeader("Content-Type", "text/html");
+  res.setHeader("Cache-Control", "s-max-age=1, stale-while-revalidate");
+  res.render("login");
+});
+
 app.get("/home", async (req, res) => {
   try {
     const allData = await ItemCollection.find();
