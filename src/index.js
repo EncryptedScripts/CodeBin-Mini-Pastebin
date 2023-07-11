@@ -87,11 +87,26 @@ app.post("/upload", async (req, res) => {
   }
 });
 
-app.post("/edit/:itemId", async (req, res) => {
+app.get("/edit/:itemId", async (req, res) => {
   const itemId = req.params.itemId;
+  try {
+    const item = await ItemCollection.findById(itemId);
+    res.render("edit", { item });
+  } catch (error) {
+    res.send("Error: " + error.message);
+  }
+});
+
+app.post("/update/:itemId", async (req, res) => {
+  const itemId = req.params.itemId;
+  const { title, thumbnail, description } = req.body;
 
   try {
-    await ItemCollection.findByIdAndUpdate(itemId, req.body);
+    await ItemCollection.findByIdAndUpdate(itemId, {
+      title,
+      thumbnail,
+      description,
+    });
     res.redirect("/home");
   } catch (error) {
     res.send("Error: " + error.message);
