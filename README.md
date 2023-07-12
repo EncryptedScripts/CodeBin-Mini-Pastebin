@@ -81,10 +81,10 @@ If you have any questions, feedback, or need support regarding CodeBin, you can 
 
 ## Screenshots
 
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751325371437086/image.png
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751325694402684/image.png
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751325958647858/image.png
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751326269018122/image.png
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751326583595079/image.png
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751326852034620/image.png
-https://cdn.discordapp.com/attachments/1115267387953000459/1128751327086907572/image.png
+![Screenshot 1](https://cdn.discordapp.com/attachments/1115267387953000459/1128751325371437086/image.png)
+![Screenshot 2](https://cdn.discordapp.com/attachments/1115267387953000459/1128751325694402684/image.png)
+![Screenshot 3](https://cdn.discordapp.com/attachments/1115267387953000459/1128751325958647858/image.png)
+![Screenshot 4](https://cdn.discordapp.com/attachments/1115267387953000459/1128751326269018122/image.png)
+![Screenshot 5](https://cdn.discordapp.com/attachments/1115267387953000459/1128751326583595079/image.png)
+![Screenshot 6](https://cdn.discordapp.com/attachments/1115267387953000459/1128751326852034620/image.png)
+![Screenshot 7](https://cdn.discordapp.com/attachments/1115267387953000459/1128751327086907572/image.png)
