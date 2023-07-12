@@ -19,14 +19,13 @@ const logInSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  token: {
+    type: String,
+  },
 });
 
 const itemSchema = new mongoose.Schema({
   title: {
-    type: String,
-    required: true,
-  },
-  thumbnail: {
     type: String,
     required: true,
   },
